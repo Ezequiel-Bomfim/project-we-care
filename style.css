@@ -1,0 +1,105 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 25px 0 100px 76px;
+}
+
+.link-header,
+.btn-login {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.link-header {
+    margin-right: 15px;
+    color: #989D9C;
+}
+
+.btn-login {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    background-color: #665AE1;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+h1,
+h2 {
+    color: #515151;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+}
+
+p {
+    font-size: 24px;
+    color: #848484;
+    width: 515px;
+    margin: 30px 0 30px 0;
+}
+
+.btn-explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: #ADFF00;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 40px rgb(0,0,0.1 );
+}
+
+@media (max-width: 740px){
+    header, p{
+        display: none;
+    }
+
+    main{
+        display: block;
+        text-align: center;
+        padding: 80px;
+    }
+
+    .img-logo{
+        width: 354px;
+        height: 317px;
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
